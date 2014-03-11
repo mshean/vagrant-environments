@@ -2,4 +2,3 @@ sudo yum -y install http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6
 sudo yum -y install http://yum.puppetlabs.com/el/6/products/x86_64/puppetlabs-release-6-7.noarch.rpm
 sudo yum -y install http://yum.theforeman.org/releases/1.3/el6/x86_64/foreman-release.rpm
 sudo yum -y install foreman-installer
-sudo foreman-installer
