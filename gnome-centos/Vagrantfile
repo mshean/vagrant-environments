@@ -59,7 +59,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   
   config.vm.provider "virtualbox" do |v|
     v.gui = true
-    v.name = "centos"
+    v.name = "gnome-centos"
     v.memory = 2048
     v.cpus = 2
   end
