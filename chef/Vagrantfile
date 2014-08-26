@@ -63,8 +63,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     end
   end
   config.vm.define "compute2" do |compute2_config|
-    compute1_config.vm.hostname = "compute2"
-    compute1_config.vm.provider "virtualbox" do |v|
+    compute2_config.vm.hostname = "compute2"
+    compute2_config.vm.provider "virtualbox" do |v|
       v.name = "centos"
       v.memory = 2048
       v.cpus = 2
