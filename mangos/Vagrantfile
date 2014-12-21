@@ -85,9 +85,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # end
   
   config.vm.provision :shell do |shell|
-    shell.inline = "apt-get update && apt-get -y install build-essential 
-	gcc g++ automake git-core autoconf make patch libmysql++-dev mysql-server libtool 
-	libssl-dev grep binutils zlibc libc6 libbz2-dev cmake"
+    shell.inline = "apt-get update && apt-get -y install build-essential gcc g++ automake git-core autoconf make patch libmysql++-dev mysql-server libtool libssl-dev grep binutils zlibc libc6 libbz2-dev cmake"
   end
 
   # Enable provisioning with chef solo, specifying a cookbooks path, roles
