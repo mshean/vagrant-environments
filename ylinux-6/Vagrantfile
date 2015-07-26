@@ -6,7 +6,6 @@ Vagrant.configure('2') do |config|
 
   config.vm.box = 'ylinux-6'
   config.vm.box_url = "http://yo/ylinux6-vagrant-vbox"
-
-  host.vm.hostname = "sandbox"
+  config.vm.hostname = "sandbox"
 
 end
