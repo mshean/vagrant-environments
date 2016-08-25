@@ -1,0 +1,11 @@
+# encoding: utf-8
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure('2') do |config|
+
+  config.vm.box = 'ylinux7'
+  config.vm.box_url = "http://yo/ylinux7-vagrant-vbox"
+  config.vm.hostname = "sandbox"
+
+end
